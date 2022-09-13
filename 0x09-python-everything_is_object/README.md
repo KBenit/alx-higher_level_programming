@@ -8,7 +8,7 @@ Files | Description
 [3-answer.txt](./3-answer.txt) | a = 89, b = 89. Do a and b point to the same object?
 [4-answer.txt](./4-answer.txt) | a = 89, b = a. Do a and b point to the same object?
 [5-answer.txt](./5-answer.txt) | a = 89, b = a + 1. Do a and b point to the same object?
-[6-answer.txt](./6-answer.txt) | s1 = "Holberton", s2 = s1, print(s1 == s2). What do these 3 lines print?
+[6-answer.txt](./6-answer.txt) | s1 = "Best School", s2 = s1, print(s1 == s2). What do these 3 lines print?
 [7-answer.txt](./7-answer.txt) | s1 = "Best", s2 = s1, print(s1 is s2). What do these 3 lines print?
 [8-answer.txt](./8-answer.txt) | s1 = "Best School", s2 = "Best School", print(s1 == s2). What do these 3 lines print?
 [9-answer.txt](./9-answer.txt) | s1 = "Best School", s2 = "Best School", print(s1 is s2). What do these 3 lines print?
@@ -31,3 +31,61 @@ Files | Description
 [26-answer.txt](./26-answer.txt) | a = (), b = (), a is b. What does this script print?
 [27-answer.txt](./27-answer.txt) | a = [1, 2, 3, 4], id(a), 139926795932424, a = a + [5], id(a). Will the last line of this script print 139926795932424?
 [28-answer.txt](./28-answer.txt) | a = [1, 2, 3], id (a), 139926795932424, a += [4], id(a). Will the last line of this script print 139926795932424?
+[100-magic_string.py](./100-magic_string.py) | Python function magic_string() that returns a string “Holberton” n times the number of the iteration
+[101-locked_class.py](./101-locked_class.py) | Python class LockedClass with no class or object attribute, that prevents the user from dynamically creating new instance attributes, except if the new instance attribute is called first_name
+
+## Task 31
+```
+a = 1
+b = 1
+```
+
+Files | Description
+----- | -----------
+[103-line1.txt](./103-line1.txt) | How many int objects are created by the execution of the first line of the script?
+[103-line2.txt](./103-line2.txt) | How many int objects are created by the execution of the second line of the script?
+
+## Task 32
+```
+a = 1024
+b = 1024
+del a
+del b
+c = 1024
+```
+
+Files | Description
+----- | -----------
+[104-line1.txt](./104-line1.txt) | How many int objects are created by the execution of the first line of the script?
+[104-line2.txt](./104-line2.txt) | How many int objects are created by the execution of the second line of the script?
+[104-line3.txt](./104-line3.txt) | After the execution of line 3, is the int object pointed by a deleted?
+[104-line4.txt](./104-line4.txt) | After the execution of line 4, is the int object pointed by b deleted?
+[104-line5.txt](./104-line5.txt) | How many int objects are created by the execution of the last line of the script?
+
+## Task 33
+```
+print("I")
+print("Love")
+print("Python")
+```
+
+Files | Description
+----- | -----------
+[105-line1.txt](./105-line1.txt) | Before the execution of line 2 (print("Love")), how many int objects have been created and are still in memory?
+
+## Task 35
+```
+a = "SCHL"
+b = "SCHL"
+del a
+del b
+c = "SCHL"
+```
+
+Files | Description
+----- | -----------
+[106-line1.txt](./106-line1.txt) | How many string objects are created by the execution of the first line of the script?
+[106-line2.txt](./106-line2.txt) | How many string objects are created by the execution of the second line of the script?
+[106-line3.txt](./106-line3.txt) | After the execution of line 3, is the string object pointed by a deleted?
+[106-line4.txt](./106-line4.txt) | After the execution of line 4, is the string object pointed by b deleted?
+[106-line5.txt](./106-line5.txt) | How many string objects are created by the execution of the last line of the script?
