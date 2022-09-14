@@ -18,4 +18,4 @@ class Square(Rectangle):
     def area(self):
         '''Implementing the area method'''
 
-        return self.__size * self.
+        return self.__size * self.__size
