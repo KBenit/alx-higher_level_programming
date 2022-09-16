@@ -43,3 +43,4 @@ A dictionary key will be the public attribute name
 A dictionary value will be the value of the public attribute
 [12-pascal_triangle.py](./12-pascal_triangle.py) | Python function def pascal_triangle(n): that returns a list of lists of integers representing the Pascal’s triangle of n
 [100-append_after.py](./100-append_after.py) | Python function that inserts a line of text to a file, after each line containing a specific string
+[102-stats.py](./102-stats.py) | Python script that reads stdin line by line and computes metrics
