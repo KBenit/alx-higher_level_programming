@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Unittests for rectangle
+"""Unittest rectangle
 Test cases for the Rectangle class.
 Each test has the number of the task,
 and the number of the test for that task

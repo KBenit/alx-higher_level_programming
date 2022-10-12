@@ -1,10 +1,11 @@
 #!/usr/bin/python3
-"""Unittests for base
+"""Unittest base.
 Test cases for Base class.
 Each test has the number of the task,
 and the number of the test for that task
 (i.e 'test_17_0' for the first test of task 17)
 """
+
 import unittest
 import os
 from models.base import Base
@@ -388,4 +389,3 @@ class TestBase(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-
