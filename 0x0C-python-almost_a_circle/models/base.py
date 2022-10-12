@@ -1,8 +1,6 @@
 #!/usr/bin/python3
-"""
-This module implements `base` class of all other classes in this project.
-The goal of it is to manage id attribute in all your future classes
-and to avoid duplicating the same code (by extension, same bugs)
+"""Module base.
+Defines a Base class for other classes in the project.
 """
 
 import json

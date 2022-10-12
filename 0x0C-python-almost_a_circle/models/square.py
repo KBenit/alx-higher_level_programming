@@ -4,8 +4,8 @@ This module implements a Square class
 inheriting from Rectangle.
 """
 
-from base import Base
-from rectangle import Rectangle
+from models.base import Base
+from models.rectangle import Rectangle
 
 
 class Square(Rectangle):

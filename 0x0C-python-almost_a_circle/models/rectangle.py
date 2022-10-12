@@ -5,7 +5,7 @@ Create a Rectangle class, inheriting from Base.
 """
 
 import json
-from base import Base
+from models.base import Base
 
 
 class Rectangle(Base):
